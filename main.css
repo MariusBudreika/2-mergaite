@@ -9,7 +9,7 @@ header {
     width: 800px;
     margin-left: calc((100% - 800px)/ 2);
     margin-right: calc((100% - 800px)/ 2);
-    background-color: yellow;
+
 }
 
 header > img {
@@ -21,11 +21,29 @@ header > img {
 nav {
     display: inline-block;
     float: right;
+    margin-top: 9px;
 }
 
 a {
     display: inline-block;
+    float: left;
+    color: #9F9F9F;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 3px solid transparent;
 }
+a:last-of-type {
+    margin-left: 15px;
+    border-color:#9F9F9F;
+    border-radius: 117px;
+
+
+}
+
 
 main {
     display: inline-block;
